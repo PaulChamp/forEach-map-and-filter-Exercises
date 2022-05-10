@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <p id="para1">Color</p>
+    <p id="para">Match!</p>
+    <!-- <h2 id="bestscore">Best Score: <span id="best-score"> 0 </span></h2> -->
+    <button id="start">Start Game</button>
+    <h1></h1>
+    <div id="game" onclick="onClick()">
+    </div>
+    <section>
+      <div class="current-score">Clicks: <a id="clicker">0</a></div>
+      <h2 id="gametime">Time: <label id="minutes">00</label>:<label id="seconds">00</label> </h2>
+    </section>
+
+    <script src="script.js"></script>
+    <button id="reset" onclick="window.location.reload()">Reset Game</button>
+  </body>
+</html>

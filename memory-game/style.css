@@ -1,0 +1,93 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.5s;
+}
+
+body {
+  background-color: #323633;
+}
+
+#reset {
+  background-color: #1c1c1c;
+  outline: aqua;
+  color: aliceblue;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 1em 1.5em;
+  margin: 0 auto;
+  display: block;
+}
+
+p{
+  text-align: center;
+  font-size: 4em;
+  color: aqua;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#para.playing{
+  display: none;
+}
+
+#para1.playing{
+  display: none;
+}
+
+#start{
+  background-color: #1c1c1c;
+  outline: aqua;
+  color: aliceblue;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 1em 1.5em;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.current-score{
+  border: 3px solid #1c1c1c;
+  width: 25%;
+  display: block;
+  padding: 25px;
+  font-size: 2.5em;
+  margin: 0 auto;
+  display: block;
+  color: aqua;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#gametime{
+  border: 3px solid #1c1c1c;
+  width: 25%;
+  display: block;
+  padding: 25px;
+  font-size: 2.5em;
+  margin: 0 auto;
+  display: block;
+  color: aqua;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#start.playing{
+  margin-top: -9vh;
+  transition: margin-top 1s;
+}
+
+#bestscore{
+  text-align: center;
+  font-size: 4em;
+  color: aqua;
+  font-family: 'Roboto', sans-serif;
+}
+
+#bestscore.playing{
+  display: none;
+}
