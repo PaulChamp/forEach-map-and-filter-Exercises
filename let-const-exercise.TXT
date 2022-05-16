@@ -1,0 +1,10 @@
+What is the difference between var and let?
+	var can be redeclared and reassinged let cannot be redeclared. let also creates a code block
+
+What is the difference between var and const?
+	
+
+What is the difference between let and const?
+
+
+What is hoisting?
