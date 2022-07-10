@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Input form -->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">The New York Times</h1>
+                <h3>Article Search</h3>
+            </div>
+        </div>
+        <form class="form">
+            <div class="card-header">Search Parameters</div>
+            <div class="form-group">
+                <label>Search Term: </label>
+                <input type="search" class="form-control" id="searchTerm">
+            </div>
+            <div class="form-group">
+                <label>Number of Articles to Retrieve: </label>
+                <select class="form-control" id="recordNum" active>
+                    <option>1</option>
+                    <option selected="selected">5</option>
+                    <option>10</option>
+                </select>
+            </div>
+            <button type="button" id="searchBtn" class="btn blueBg">
+                <i class="fas fa-search"></i>&nbsp;Search</button>
+            <button type="button" id="clearBtn" class="btn btn-secondary">
+                <i class="fas fa-trash-alt"></i>&nbsp;Clear Results</button>
+        </form>
+
+        <div class="form topArticles">
+            <div class="card-header">
+                Top Articles
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p></p>
+                    <div class="results"></div>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="article-search.js"></script>
+
+</body>
+
+
+</html>

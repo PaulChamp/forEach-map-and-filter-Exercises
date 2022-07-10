@@ -1,0 +1,44 @@
+VM633:1 Console was cleared
+undefined
+const people = ["greg", "mary", "devon", "james"];
+undefined
+people.shift()
+'greg'
+people
+(3) ['mary', 'devon', 'james']
+people.pop()
+'james'
+people
+(2) ['mary', 'devon']
+people.unshift("matt)
+VM1010:1 Uncaught SyntaxError: Invalid or unexpected token
+people.unshift("matt");
+3
+people
+(3) ['matt', 'mary', 'devon']
+people.slice()
+(3) ['matt', 'mary', 'devon']
+people.slice(2, 3)
+['devon']
+people.indexOf("mary")
+1
+people.indexOf("foo")
+-1
+people.splice(2, 1, "elizabeth", "artie", "james");
+['devon']
+people
+(5) ['matt', 'mary', 'elizabeth', 'artie', 'james']
+const withBob = ['matt', 'mary', 'elizabeth', 'artie', 'james'];
+undefined
+withBob.concat(people);
+(10) ['matt', 'mary', 'elizabeth', 'artie', 'james', 'matt', 'mary', 'elizabeth', 'artie', 'james']
+
+
+
+
+
+
+barbs: 470 75k g
+sk: 663 75k g
+minions: 855 75k g
+bomber 1455 75k g

@@ -1,0 +1,73 @@
+/* some colors you may find useful:
+  #115ff4 -
+  #060ce9
+  #28a200 -
+  #8d2ab5
+  #74119c -
+*/
+
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  background: #115ff4;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+button {
+  padding: 10px 0px;
+  background-color: #8D2AB5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  width: 140px;
+}
+
+button:hover {
+  background-color: #74119C;
+}
+
+table {
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 4px;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+th {
+  width: 150px;
+  height: 100px;
+  padding: 6px 25px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: .5px;
+  border-radius: 4px;
+}
+
+td {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 150px;
+  height: 100px;
+  padding: 6px 20px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: .6px;
+
+}
+
+.answer {
+  background-color: #28a200;
+  font-style: italic;
+  font-size: 20px;
+}

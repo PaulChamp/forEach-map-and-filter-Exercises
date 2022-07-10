@@ -1,0 +1,12 @@
+git checkout -b
+
+fast forwards are only when there has not been commits on origonal branch
+
+git checkout
+
+git branch -D
+
+when git does not know what file to select
+
+---part 2---
+

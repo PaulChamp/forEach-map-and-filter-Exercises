@@ -1,0 +1,42 @@
+mkdir first
+
+cd first
+
+touch person.txt
+
+mv person.txt another.txt
+
+cp another.txt copy.txt
+
+rm copy.txt
+
+cp -r first second
+
+rm -rf second
+
+-----part 2-----
+D is to forward half page; B is back full page
+U goes back half page
+
+lists files in a format with more detail
+-a lists files including hidden ones
+
+alr left or right
+
+control e
+
+control a
+
+alt delete
+
+terminal is a program the shell does the commands
+
+gives complete location to the folder from beginning
+
+gives location to the folder from where you are
+
+flag is another function to a pre existing command
+-a -l -r
+
+r removes and f forcfully removes
+

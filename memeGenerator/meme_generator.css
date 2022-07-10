@@ -1,0 +1,104 @@
+body {
+    background-color: #ededed;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#concept {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formdiv {
+    background-color: #c2c2c2;
+    padding: 1%;
+}
+
+#Uform {
+    padding: 1%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#Tform {
+    padding: 1%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#Bform {
+    padding: 1%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#createbtn {
+    padding: 15px 32px;
+    position: relative;
+    left: 90%;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#createbtn:hover{
+    background-color: #9c9c9c;
+}
+
+input{
+    font-size: 22px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#memes{
+    position: relative;
+}
+
+.memeImg{
+    width: 250px;
+    height: 250px;
+}
+
+div.created{
+    font-family: 'Holtwood One SC', serif;
+    font-size: 20px;
+    position: relative;
+    left: 225px;
+    bottom: 265px;
+}
+
+div.createdbtm{
+    font-family: 'Holtwood One SC', serif;
+    font-size: 20px;
+    position: relative;
+    left: 215px;
+    bottom: 100px;
+}
+
+button.created{
+    padding: 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    position: relative;
+    left: 420px;
+    bottom: 100px;
+    background-color: #9c9c9c;
+}
+
+button.created:hover{
+    background-color: #c7a9a9;
+}
+
+/* 
+#text {
+    position: absolute;
+    font-family: 'Holtwood One SC', serif;
+    font-size: 20px;
+    top: 600px;
+    left: 75px;
+    margin-bottom: 50px;
+} */

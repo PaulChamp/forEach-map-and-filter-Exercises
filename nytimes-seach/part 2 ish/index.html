@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Times Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+                <h1>The New York Times</h1>
+                <h3>Article Search</h3>
+        <form class="form">
+            <div >Search Parameters</div>
+            <div class="form-group">
+                <label>Search Term: </label>
+                <input type="search" id="searchTerm">
+            </div>
+            <div class="form-group">
+                <label>Number of Articles to Show: </label>
+                <select  id="recordNum" active>
+                    <option>1</option>
+                    <option selected="selected">5</option>
+                    <option>10</option>
+                </select>
+            </div>
+            <button type="button" id="searchBtn" >Search</button>
+            <button type="button" id="clearBtn" >Clear Results</button>
+        </form>
+
+        <div class="form topArticles">
+            <div >
+                Top Articles
+            </div>
+            <div >
+                    <p></p>
+                    <div class="results"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://unpkg.com/jquery"></script>
+    <script src="article-search.js"></script>
+
+</body>
+
+
+</html>
